@@ -1,7 +1,5 @@
-﻿#echo $args[0]
-#$iconPathSource = $args[0]
-$iconPathSource = 'C:\Users\NTQ\OneDrive\Documents\#KEEP\WtRightClick\terminal.ico'
-
+#echo $args[0]
+$iconPathSource = $args[0]
 
 $wtApp = Get-AppxPackage | ? {$_.name -like '*Microsoft.WindowsTerminal*'}
 $wtApp
